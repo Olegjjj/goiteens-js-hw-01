@@ -11,8 +11,7 @@ const myString = "Початок- є більш ніж половина всьо
 console.log(myString)
 
 let myNumber = 1500;
-myNumber = 1500 + 10;
-console.log(myNumber)
+console.log(myNumber + 10)
 
 const myNull = null;
 console.log(myNull);
@@ -23,13 +22,13 @@ alert("Привіт" + " " + isName);
 console.log(isName);
 
 const confirning = confirm("Підтвердити дію?");
-if (confirning === true) alert("Дякую за підтвердження!");
-else alert("Дію відмінено!");
+if (confirning === true) { alert("Дякую за підтвердження!");}
+else {alert("Дію відмінено!");}
 console.log(confirning);
 
 const dangerous = alert("Дія небезпечна")
 const assurances = confirm("Підтвердити дію?");
-if (assurances === true) alert("Дякую за підтвердження!");
-else alert("Дію відмінено!");
+if (assurances === true) {alert("Дякую за підтвердження!");}
+else {alert("Дію відмінено!");}
 console.log(assurances);
 console.log(dangerous);
