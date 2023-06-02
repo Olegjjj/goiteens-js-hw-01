@@ -10,17 +10,16 @@ console.log(isStudent);
 const myString = "Початок- є більш ніж половина всього";
 console.log(myString)
 
-myNumber = 1e500 + 10;
+let myNumber = 1500;
+myNumber = 1500 + 10;
 console.log(myNumber)
 
-let myNull = null;
+const myNull = null;
 console.log(myNull);
 
 const isName = prompt("Будь ласка введіть своє ім'я");
 console.log(isName);
-if (isName === isName) alert("Привіт користувач!");
-else alert("Дію відмінено!");
-// console.log(message);
+alert("Привіт" + " " + isName);
 console.log(isName);
 
 const confirning = confirm("Підтвердити дію?");
